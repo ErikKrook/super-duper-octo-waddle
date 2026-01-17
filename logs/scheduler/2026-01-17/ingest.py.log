@@ -1,0 +1,602 @@
+[2026-01-17T04:14:46.479+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:14:46.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:14:46.486+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:14:46.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:14:46.551+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:14:46.612+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:14:46.612+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:14:46.631+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:14:46.631+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:14:46.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.206 seconds
+[2026-01-17T04:15:16.941+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:16.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:15:16.947+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:16.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:16.981+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:17.194+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:17.194+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:15:17.205+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:17.205+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:15:17.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.294 seconds
+[2026-01-17T04:15:47.357+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:47.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:15:47.362+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:47.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:47.412+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:15:47.453+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:47.453+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:15:47.475+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:15:47.475+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:15:47.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.163 seconds
+[2026-01-17T04:16:17.961+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:17.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:16:17.971+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:17.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:18.024+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:18.072+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:18.072+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:16:18.096+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:18.095+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:16:18.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.190 seconds
+[2026-01-17T04:16:48.345+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:48.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:16:48.350+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:48.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:48.387+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:16:48.416+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:48.416+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:16:48.432+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:16:48.431+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:16:48.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.120 seconds
+[2026-01-17T04:17:18.671+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:18.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:17:18.674+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:18.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:18.708+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:18.739+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:18.739+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:17:18.753+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:18.753+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:17:18.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.115 seconds
+[2026-01-17T04:17:49.252+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:49.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:17:49.258+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:49.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:49.288+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:17:49.325+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:49.325+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:17:49.343+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:17:49.343+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:17:49.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.127 seconds
+[2026-01-17T04:18:19.740+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:19.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:18:19.744+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:19.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:19.765+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:19.790+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:19.790+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:18:19.803+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:19.803+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:18:19.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.091 seconds
+[2026-01-17T04:18:50.194+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:50.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:18:50.197+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:50.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:50.221+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:18:50.243+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:50.243+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:18:50.255+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:18:50.255+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:18:50.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.094 seconds
+[2026-01-17T04:19:20.572+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:20.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:19:20.577+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:20.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:20.599+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:20.623+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:20.623+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:19:20.636+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:20.636+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:19:20.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.092 seconds
+[2026-01-17T04:19:50.993+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:50.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:19:50.998+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:50.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:51.024+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:19:51.046+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:51.045+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:19:51.057+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:19:51.056+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:19:51.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.089 seconds
+[2026-01-17T04:20:21.485+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:21.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:20:21.488+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:21.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:21.513+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:21.540+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:21.539+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:20:21.550+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:21.550+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:20:21.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.091 seconds
+[2026-01-17T04:20:51.913+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:51.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:20:51.916+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:51.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:51.941+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:20:51.967+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:51.967+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:20:51.980+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:20:51.980+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:20:52.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.096 seconds
+[2026-01-17T04:21:22.304+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:22.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:21:22.308+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:22.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:22.331+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:22.356+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:22.355+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:21:22.367+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:22.366+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:21:22.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.088 seconds
+[2026-01-17T04:21:52.727+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:52.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:21:52.730+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:52.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:52.753+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:21:52.774+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:52.774+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:21:52.785+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:21:52.785+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:21:52.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.082 seconds
+[2026-01-17T04:22:23.148+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:23.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:22:23.152+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:23.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:23.178+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:23.201+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:23.201+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:22:23.213+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:23.213+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:22:23.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.090 seconds
+[2026-01-17T04:22:53.582+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:53.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:22:53.585+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:53.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:53.607+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:22:53.632+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:53.632+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:22:53.644+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:22:53.644+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:22:53.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.090 seconds
+[2026-01-17T04:23:23.937+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:23.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:23:23.941+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:23.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:23.968+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:23.995+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:23.994+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:23:24.009+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:24.009+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:23:24.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.098 seconds
+[2026-01-17T04:23:54.397+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:54.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:23:54.399+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:54.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:54.421+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:23:54.443+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:54.443+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:23:54.455+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:23:54.455+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:23:54.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.084 seconds
+[2026-01-17T04:24:24.755+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:24.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:24:24.758+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:24.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:24.788+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:24.813+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:24.813+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:24:24.826+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:24.825+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:24:24.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.096 seconds
+[2026-01-17T04:24:55.200+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:55.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:24:55.204+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:55.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:55.230+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:24:55.259+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:55.258+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:24:55.277+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:24:55.277+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:24:55.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.104 seconds
+[2026-01-17T04:25:25.539+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:25.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:25:25.542+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:25.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:25.563+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:25.587+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:25.586+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:25:25.599+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:25.599+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:25:25.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.085 seconds
+[2026-01-17T04:25:56.006+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:56.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:25:56.011+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:56.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:56.035+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:25:56.062+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:56.062+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:25:56.073+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:25:56.073+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:25:56.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.098 seconds
+[2026-01-17T04:26:26.358+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:26.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:26:26.363+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:26.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:26.388+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:26.409+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:26.409+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:26:26.421+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:26.420+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:26:26.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.087 seconds
+[2026-01-17T04:26:56.821+0000] {processor.py:161} INFO - Started process (PID=416) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:56.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:26:56.825+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:56.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:56.855+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:26:56.880+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:56.880+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:26:56.893+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:26:56.893+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:26:56.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.102 seconds
+[2026-01-17T04:27:27.221+0000] {processor.py:161} INFO - Started process (PID=434) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:27.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:27:27.225+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:27.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:27.252+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:27.278+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:27.278+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:27:27.290+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:27.290+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:27:27.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.096 seconds
+[2026-01-17T04:27:57.626+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:57.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:27:57.629+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:57.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:57.650+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:27:57.675+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:57.675+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:27:57.688+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:27:57.687+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:27:57.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.089 seconds
+[2026-01-17T04:28:27.947+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:27.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:28:27.951+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:27.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:27.975+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:28.001+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:28.000+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:28:28.012+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:28.012+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:28:28.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.092 seconds
+[2026-01-17T04:28:58.364+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:58.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:28:58.369+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:58.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:58.401+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:28:58.427+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:58.427+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:28:58.438+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:28:58.438+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:28:58.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.104 seconds
+[2026-01-17T04:29:28.783+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:28.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:29:28.786+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:28.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:28.808+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:28.831+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:28.831+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:29:28.842+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:28.842+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:29:28.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.086 seconds
+[2026-01-17T04:29:59.294+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:59.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:29:59.297+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:59.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:59.320+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:29:59.343+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:59.343+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:29:59.356+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:29:59.356+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:29:59.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.091 seconds
+[2026-01-17T04:30:29.669+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:30:29.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:30:29.673+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:30:29.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:30:29.697+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:30:29.718+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:30:29.718+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:30:29.730+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:30:29.729+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:30:29.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.090 seconds
+[2026-01-17T04:31:00.083+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:00.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:31:00.087+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:00.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:00.111+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:00.135+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:00.134+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:31:00.149+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:00.149+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:31:00.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.094 seconds
+[2026-01-17T04:31:30.423+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:30.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:31:30.427+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:30.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:30.448+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:31:30.470+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:30.470+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:31:30.483+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:31:30.482+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:31:30.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.087 seconds
+[2026-01-17T04:32:00.971+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:00.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:32:00.975+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:00.975+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:01.005+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:01.027+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:01.027+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:32:01.039+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:01.039+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:32:01.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.094 seconds
+[2026-01-17T04:32:31.441+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:31.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:32:31.444+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:31.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:31.470+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:32:31.494+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:31.493+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:32:31.507+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:32:31.506+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:32:31.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.094 seconds
+[2026-01-17T04:33:01.946+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:01.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:33:01.950+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:01.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:01.975+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:01.997+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:01.997+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:33:02.011+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:02.010+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:33:02.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.093 seconds
+[2026-01-17T04:33:32.320+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:32.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:33:32.324+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:32.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:32.349+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:33:32.372+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:32.372+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:33:32.383+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:33:32.383+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:33:32.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.089 seconds
+[2026-01-17T04:34:02.653+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:02.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:34:02.656+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:02.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:02.677+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:02.701+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:02.700+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:34:02.713+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:02.713+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:34:02.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.084 seconds
+[2026-01-17T04:34:33.076+0000] {processor.py:161} INFO - Started process (PID=574) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:33.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:34:33.080+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:33.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:33.107+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:34:33.133+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:33.133+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:34:33.146+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:34:33.145+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:34:33.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.098 seconds
+[2026-01-17T04:35:03.477+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:03.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:35:03.481+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:03.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:03.508+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:03.533+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:03.532+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:35:03.545+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:03.545+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:35:03.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.095 seconds
+[2026-01-17T04:35:33.866+0000] {processor.py:161} INFO - Started process (PID=594) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:33.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:35:33.870+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:33.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:33.893+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:35:33.917+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:33.917+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:35:33.931+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:35:33.930+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:35:33.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.093 seconds
+[2026-01-17T04:36:04.251+0000] {processor.py:161} INFO - Started process (PID=604) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:04.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:36:04.255+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:04.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:04.281+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:04.310+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:04.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:36:04.328+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:04.328+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:36:04.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.112 seconds
+[2026-01-17T04:36:34.652+0000] {processor.py:161} INFO - Started process (PID=614) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:34.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:36:34.656+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:34.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:34.691+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:36:34.718+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:34.717+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:36:34.730+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:36:34.730+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:36:34.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.108 seconds
+[2026-01-17T04:37:05.057+0000] {processor.py:161} INFO - Started process (PID=624) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:05.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:37:05.063+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:05.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:05.087+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:05.111+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:05.111+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:37:05.126+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:05.125+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:37:05.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.099 seconds
+[2026-01-17T04:37:35.403+0000] {processor.py:161} INFO - Started process (PID=634) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:35.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:37:35.406+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:35.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:35.427+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:37:35.450+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:35.450+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:37:35.462+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:37:35.462+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:37:35.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.085 seconds
+[2026-01-17T04:38:05.933+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:05.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:38:05.936+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:05.936+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:05.963+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:05.988+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:05.988+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:38:06.001+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:06.001+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:38:06.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.098 seconds
+[2026-01-17T04:38:36.313+0000] {processor.py:161} INFO - Started process (PID=654) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:36.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:38:36.316+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:36.316+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:36.342+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:38:36.365+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:36.365+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:38:36.377+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:38:36.377+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:38:36.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.091 seconds
+[2026-01-17T04:39:06.775+0000] {processor.py:161} INFO - Started process (PID=664) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:06.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:39:06.779+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:06.779+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:06.804+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:06.836+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:06.836+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:39:06.854+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:06.853+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:39:06.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.112 seconds
+[2026-01-17T04:39:37.265+0000] {processor.py:161} INFO - Started process (PID=674) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:37.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:39:37.268+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:37.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:37.293+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:39:37.314+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:37.314+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:39:37.327+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:39:37.327+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:39:37.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.089 seconds
+[2026-01-17T04:40:07.719+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:07.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:40:07.724+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:07.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:07.753+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:07.777+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:07.777+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:40:07.790+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:07.790+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:40:07.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.099 seconds
+[2026-01-17T04:40:38.039+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:38.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:40:38.043+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:38.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:38.069+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:40:38.096+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:38.096+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:40:38.108+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:40:38.107+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:40:38.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.101 seconds
+[2026-01-17T04:41:08.514+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:08.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:41:08.518+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:08.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:08.540+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:08.562+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:08.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:41:08.575+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:08.575+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:41:08.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.092 seconds
+[2026-01-17T04:41:38.900+0000] {processor.py:161} INFO - Started process (PID=714) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:38.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:41:38.904+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:38.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:38.924+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:41:38.947+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:38.947+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:41:38.959+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:41:38.958+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:41:38.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.084 seconds
+[2026-01-17T04:42:09.337+0000] {processor.py:161} INFO - Started process (PID=724) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:09.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:42:09.341+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:09.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:09.368+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:09.398+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:09.398+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:42:09.412+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:09.412+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:42:09.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.100 seconds
+[2026-01-17T04:42:39.661+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:39.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:42:39.664+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:39.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:39.688+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:42:39.714+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:39.713+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:42:39.727+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:42:39.726+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:42:39.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.095 seconds
+[2026-01-17T04:43:10.111+0000] {processor.py:161} INFO - Started process (PID=744) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:10.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:43:10.116+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:10.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:10.141+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:10.172+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:10.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:43:10.186+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:10.186+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:43:10.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.106 seconds
+[2026-01-17T04:43:40.440+0000] {processor.py:161} INFO - Started process (PID=754) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:40.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:43:40.444+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:40.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:40.469+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:43:40.497+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:40.497+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:43:40.513+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:43:40.513+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:43:40.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.103 seconds
+[2026-01-17T04:44:10.847+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:10.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:44:10.851+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:10.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:10.878+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:10.905+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:10.905+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:44:10.920+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:10.920+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:44:10.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.102 seconds
+[2026-01-17T04:44:41.174+0000] {processor.py:161} INFO - Started process (PID=774) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:41.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:44:41.178+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:41.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:41.202+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:44:41.227+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:41.226+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:44:41.239+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:44:41.239+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:44:41.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.093 seconds
+[2026-01-17T04:45:11.618+0000] {processor.py:161} INFO - Started process (PID=784) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:11.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:45:11.621+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:11.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:11.644+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:11.665+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:11.665+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:45:11.676+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:11.676+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:45:11.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.082 seconds
+[2026-01-17T04:45:41.976+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:41.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:45:41.979+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:41.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:42.002+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:45:42.026+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:42.026+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:45:42.038+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:45:42.038+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:45:42.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.093 seconds
+[2026-01-17T04:46:12.384+0000] {processor.py:161} INFO - Started process (PID=804) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:12.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:46:12.387+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:12.387+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:12.408+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:12.432+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:12.432+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:46:12.443+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:12.443+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:46:12.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.082 seconds
+[2026-01-17T04:46:42.787+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:42.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:46:42.790+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:42.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:42.816+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:46:42.841+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:42.841+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:46:42.853+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:46:42.852+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:46:42.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.091 seconds
+[2026-01-17T04:47:13.211+0000] {processor.py:161} INFO - Started process (PID=824) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:13.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:47:13.213+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:13.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:13.240+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:13.265+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:13.265+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:47:13.278+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:13.278+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:47:13.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.092 seconds
+[2026-01-17T04:47:43.787+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:43.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:47:43.791+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:43.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:43.819+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:47:43.845+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:43.845+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:47:43.858+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:47:43.858+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:47:43.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.099 seconds
+[2026-01-17T04:48:14.186+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:48:14.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:48:14.189+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:48:14.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:48:14.215+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:48:14.243+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:48:14.243+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:48:14.259+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:48:14.259+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:48:14.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.102 seconds
+[2026-01-17T04:53:56.921+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T04:53:56.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T04:53:56.954+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:53:56.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T04:53:57.115+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T04:53:57.213+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:53:57.213+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T04:53:57.246+0000] {logging_mixin.py:188} INFO - [2026-01-17T04:53:57.246+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T04:53:57.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.470 seconds
+[2026-01-17T07:06:30.745+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:06:30.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:06:30.763+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:06:30.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:06:30.890+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:06:30.969+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:06:30.969+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:06:31.024+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:06:31.024+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:06:31.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.380 seconds
+[2026-01-17T07:07:01.532+0000] {processor.py:161} INFO - Started process (PID=874) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:01.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:07:01.536+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:01.535+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:01.576+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:01.617+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:01.616+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:07:01.642+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:01.641+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:07:01.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.150 seconds
+[2026-01-17T07:07:31.927+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:31.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:07:31.933+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:31.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:31.976+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:07:32.032+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:32.031+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:07:32.053+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:07:32.053+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:07:32.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.175 seconds
+[2026-01-17T07:08:02.499+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:02.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:08:02.505+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:02.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:02.543+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:02.582+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:02.582+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:08:02.605+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:02.605+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:08:02.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.160 seconds
+[2026-01-17T07:08:32.942+0000] {processor.py:161} INFO - Started process (PID=904) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:32.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:08:32.947+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:32.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:32.991+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:08:33.030+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:33.030+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:08:33.052+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:08:33.052+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:08:33.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.155 seconds
+[2026-01-17T07:09:03.398+0000] {processor.py:161} INFO - Started process (PID=914) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:03.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:09:03.402+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:03.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:03.442+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:03.483+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:03.483+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:09:03.503+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:03.503+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:09:03.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.143 seconds
+[2026-01-17T07:09:33.840+0000] {processor.py:161} INFO - Started process (PID=924) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:33.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:09:33.844+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:33.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:33.887+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:09:33.927+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:33.927+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:09:33.947+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:09:33.947+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:09:33.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.150 seconds
+[2026-01-17T07:10:04.347+0000] {processor.py:161} INFO - Started process (PID=934) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:04.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:10:04.353+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:04.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:04.400+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:04.442+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:04.441+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:10:04.461+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:04.461+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:10:04.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.151 seconds
+[2026-01-17T07:10:34.775+0000] {processor.py:161} INFO - Started process (PID=944) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:34.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:10:34.780+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:34.779+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:34.823+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:10:34.869+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:34.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:10:34.888+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:10:34.888+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:10:34.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.155 seconds
+[2026-01-17T07:11:05.214+0000] {processor.py:161} INFO - Started process (PID=954) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:05.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:11:05.223+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:05.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:05.262+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:05.301+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:05.300+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:11:05.323+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:05.323+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:11:05.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.146 seconds
+[2026-01-17T07:11:35.729+0000] {processor.py:161} INFO - Started process (PID=964) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:35.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:11:35.734+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:35.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:35.796+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:11:35.857+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:35.856+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:11:35.887+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:11:35.887+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:11:35.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.217 seconds
+[2026-01-17T07:12:06.126+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:06.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:12:06.134+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:06.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:06.190+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:06.245+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:06.244+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:12:06.274+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:06.274+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:12:06.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.209 seconds
+[2026-01-17T07:12:36.731+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:36.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:12:36.740+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:36.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:36.798+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:12:36.858+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:36.858+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:12:36.882+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:12:36.882+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:12:36.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.201 seconds
+[2026-01-17T07:13:07.160+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:07.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:13:07.168+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:07.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:07.221+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:07.285+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:07.283+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:13:07.325+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:07.323+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:13:07.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.220 seconds
+[2026-01-17T07:13:37.612+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:37.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:13:37.619+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:37.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:37.662+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:13:37.706+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:37.706+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:13:37.734+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:13:37.734+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:13:37.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.177 seconds
+[2026-01-17T07:14:08.163+0000] {processor.py:161} INFO - Started process (PID=1014) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:08.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:14:08.168+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:08.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:08.214+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:08.259+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:08.259+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:14:08.278+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:08.278+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:14:08.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.155 seconds
+[2026-01-17T07:14:38.606+0000] {processor.py:161} INFO - Started process (PID=1024) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:38.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:14:38.612+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:38.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:38.653+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:14:38.691+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:38.690+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:14:38.711+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:14:38.710+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:14:38.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.146 seconds
+[2026-01-17T07:15:09.044+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/ingest.py
+[2026-01-17T07:15:09.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2026-01-17T07:15:09.050+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:15:09.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2026-01-17T07:15:09.090+0000] {processor.py:840} INFO - DAG(s) 'postgres_insert' retrieved from /opt/airflow/dags/ingest.py
+[2026-01-17T07:15:09.138+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:15:09.138+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-17T07:15:09.169+0000] {logging_mixin.py:188} INFO - [2026-01-17T07:15:09.169+0000] {dag.py:3947} INFO - Setting next_dagrun for postgres_insert to None, run_after=None
+[2026-01-17T07:15:09.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 0.179 seconds

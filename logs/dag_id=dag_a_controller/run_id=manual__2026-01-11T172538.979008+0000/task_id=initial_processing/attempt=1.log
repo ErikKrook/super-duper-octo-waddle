@@ -1,0 +1,19 @@
+[2026-01-11T17:25:40.010+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-11T17:25:40.038+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_a_controller.initial_processing manual__2026-01-11T17:25:38.979008+00:00 [queued]>
+[2026-01-11T17:25:40.048+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_a_controller.initial_processing manual__2026-01-11T17:25:38.979008+00:00 [queued]>
+[2026-01-11T17:25:40.049+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-11T17:25:40.063+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): initial_processing> on 2026-01-11 17:25:38.979008+00:00
+[2026-01-11T17:25:40.070+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_a_controller', 'initial_processing', 'manual__2026-01-11T17:25:38.979008+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/first-dag.py', '--cfg-path', '/tmp/tmp3ln4oik9']
+[2026-01-11T17:25:40.074+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask initial_processing
+[2026-01-11T17:25:40.075+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=214) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-11T17:25:40.076+0000] {standard_task_runner.py:64} INFO - Started process 215 to run task
+[2026-01-11T17:25:40.142+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_a_controller.initial_processing manual__2026-01-11T17:25:38.979008+00:00 [running]> on host bb35558040d9
+[2026-01-11T17:25:40.226+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_a_controller' AIRFLOW_CTX_TASK_ID='initial_processing' AIRFLOW_CTX_EXECUTION_DATE='2026-01-11T17:25:38.979008+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-11T17:25:38.979008+00:00'
+[2026-01-11T17:25:40.227+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-11T17:25:40.236+0000] {logging_mixin.py:188} INFO - Doing some work in DAG A...
+[2026-01-11T17:25:40.237+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-01-11T17:25:40.238+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-11T17:25:40.249+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_a_controller, task_id=initial_processing, run_id=manual__2026-01-11T17:25:38.979008+00:00, execution_date=20260111T172538, start_date=20260111T172540, end_date=20260111T172540
+[2026-01-11T17:25:40.291+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-11T17:25:40.308+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-11T17:25:40.310+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

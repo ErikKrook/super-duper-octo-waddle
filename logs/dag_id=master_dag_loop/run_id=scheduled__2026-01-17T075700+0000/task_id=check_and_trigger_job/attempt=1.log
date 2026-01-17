@@ -1,0 +1,37 @@
+[2026-01-17T07:58:01.376+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-17T07:58:01.426+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: master_dag_loop.check_and_trigger_job scheduled__2026-01-17T07:57:00+00:00 [queued]>
+[2026-01-17T07:58:01.438+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: master_dag_loop.check_and_trigger_job scheduled__2026-01-17T07:57:00+00:00 [queued]>
+[2026-01-17T07:58:01.439+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-17T07:58:01.455+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): check_and_trigger_job> on 2026-01-17 07:57:00+00:00
+[2026-01-17T07:58:01.464+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'master_dag_loop', 'check_and_trigger_job', 'scheduled__2026-01-17T07:57:00+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/MasterDagLoop.py', '--cfg-path', '/tmp/tmpbzjtp59a']
+[2026-01-17T07:58:01.467+0000] {standard_task_runner.py:91} INFO - Job 63: Subtask check_and_trigger_job
+[2026-01-17T07:58:01.467+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1884) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-17T07:58:01.468+0000] {standard_task_runner.py:64} INFO - Started process 1885 to run task
+[2026-01-17T07:58:01.582+0000] {task_command.py:426} INFO - Running <TaskInstance: master_dag_loop.check_and_trigger_job scheduled__2026-01-17T07:57:00+00:00 [running]> on host 6fa7644da444
+[2026-01-17T07:58:01.774+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='master_dag_loop' AIRFLOW_CTX_TASK_ID='check_and_trigger_job' AIRFLOW_CTX_EXECUTION_DATE='2026-01-17T07:57:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-17T07:57:00+00:00'
+[2026-01-17T07:58:01.775+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-17T07:58:01.814+0000] {base.py:84} INFO - Using connection ID 'postgres_con' for task execution.
+[2026-01-17T07:58:01.828+0000] {sql.py:495} INFO - Running statement: 
+    SELECT job_id, dag_id 
+    FROM job_control_queue 
+    WHERE is_ready = TRUE 
+    ORDER BY job_id ASC
+    LIMIT 1
+    , parameters: None
+[2026-01-17T07:58:01.833+0000] {sql.py:504} INFO - Rows affected: 1
+[2026-01-17T07:58:01.835+0000] {logging_mixin.py:188} INFO - Triggering job 1 for DAG postgres_select
+[2026-01-17T07:58:01.855+0000] {base.py:84} INFO - Using connection ID 'postgres_con' for task execution.
+[2026-01-17T07:58:01.867+0000] {sql.py:495} INFO - Running statement: UPDATE job_control_queue SET is_ready = FALSE WHERE job_id = 1, parameters: None
+[2026-01-17T07:58:01.870+0000] {sql.py:504} INFO - Rows affected: 1
+[2026-01-17T07:58:01.874+0000] {baseoperator.py:400} WARNING - TriggerDagRunOperator.execute cannot be called outside TaskInstance!
+[2026-01-17T07:58:01.993+0000] {trigger_dagrun.py:226} INFO - Waiting for postgres_select on 2026-01-17 07:58:01.875263+00:00 to become allowed state ['success'] ...
+[2026-01-17T07:59:02.008+0000] {trigger_dagrun.py:239} INFO - postgres_select finished with allowed state success
+[2026-01-17T07:59:02.026+0000] {base.py:84} INFO - Using connection ID 'postgres_con' for task execution.
+[2026-01-17T07:59:02.035+0000] {sql.py:495} INFO - Running statement: UPDATE job_control_queue SET last_triggered = NOW() WHERE job_id = 1, parameters: None
+[2026-01-17T07:59:02.037+0000] {sql.py:504} INFO - Rows affected: 1
+[2026-01-17T07:59:02.040+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-01-17T07:59:02.041+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-17T07:59:02.057+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=master_dag_loop, task_id=check_and_trigger_job, run_id=scheduled__2026-01-17T07:57:00+00:00, execution_date=20260117T075700, start_date=20260117T075801, end_date=20260117T075902
+[2026-01-17T07:59:02.098+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-17T07:59:02.121+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-17T07:59:02.124+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

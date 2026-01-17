@@ -1,0 +1,22 @@
+[2026-01-17T07:58:02.513+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-17T07:58:02.566+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_select.simple_select_task manual__2026-01-17T07:58:01.875263+00:00 [queued]>
+[2026-01-17T07:58:02.589+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_select.simple_select_task manual__2026-01-17T07:58:01.875263+00:00 [queued]>
+[2026-01-17T07:58:02.592+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-17T07:58:02.622+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): simple_select_task> on 2026-01-17 07:58:01.875263+00:00
+[2026-01-17T07:58:02.638+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'postgres_select', 'simple_select_task', 'manual__2026-01-17T07:58:01.875263+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/select_dag.py', '--cfg-path', '/tmp/tmpz952cd51']
+[2026-01-17T07:58:02.649+0000] {standard_task_runner.py:91} INFO - Job 64: Subtask simple_select_task
+[2026-01-17T07:58:02.649+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1886) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-17T07:58:02.652+0000] {standard_task_runner.py:64} INFO - Started process 1887 to run task
+[2026-01-17T07:58:02.768+0000] {task_command.py:426} INFO - Running <TaskInstance: postgres_select.simple_select_task manual__2026-01-17T07:58:01.875263+00:00 [running]> on host 6fa7644da444
+[2026-01-17T07:58:02.892+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_select' AIRFLOW_CTX_TASK_ID='simple_select_task' AIRFLOW_CTX_EXECUTION_DATE='2026-01-17T07:58:01.875263+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-17T07:58:01.875263+00:00'
+[2026-01-17T07:58:02.894+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-17T07:58:02.920+0000] {sql.py:282} INFO - Executing: SELECT 1
+[2026-01-17T07:58:02.935+0000] {base.py:84} INFO - Using connection ID 'postgres_con' for task execution.
+[2026-01-17T07:58:02.951+0000] {base.py:84} INFO - Using connection ID 'postgres_con' for task execution.
+[2026-01-17T07:58:02.959+0000] {sql.py:495} INFO - Running statement: SELECT 1, parameters: None
+[2026-01-17T07:58:02.961+0000] {sql.py:504} INFO - Rows affected: 1
+[2026-01-17T07:58:02.963+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-17T07:58:03.003+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=postgres_select, task_id=simple_select_task, run_id=manual__2026-01-17T07:58:01.875263+00:00, execution_date=20260117T075801, start_date=20260117T075802, end_date=20260117T075803
+[2026-01-17T07:58:03.031+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-17T07:58:03.057+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-17T07:58:03.059+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
