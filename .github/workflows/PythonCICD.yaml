@@ -1,0 +1,22 @@
+name: PythonCICD
+
+on: [workflow_dispatch]
+
+jobs:
+  lint-test:
+    name: Lint and Test
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Requirements
+        run: pip install pylint
+
+      - name: Lint main
+        run: pylint main.py
